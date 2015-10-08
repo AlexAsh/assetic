@@ -21,6 +21,12 @@ php:
     - 7.0
     - hhvm
 
+node_js:
+  - "0.10"
+  - "0.11"
+  - "0.12"
+  - "stable"
+
 matrix:
     allow_failures:
         - php: hhvm
